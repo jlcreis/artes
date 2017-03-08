@@ -1,0 +1,13 @@
+tr th{
+    text-align: center;
+
+}
+
+body{
+    font-size: 200%;
+}
+
+.checkboxGrande{
+    width: 20px;
+    height: 20px;
+}
