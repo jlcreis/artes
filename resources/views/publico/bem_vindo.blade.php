@@ -42,6 +42,12 @@
             @yield('conteudo')
         </div> 
         
+    <!-- Scripts -->    
+    <script type="text/javascript" src="/jquery/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/jquery/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/scriptPublico.js"></script>
+        
     </body>
     
 </html>

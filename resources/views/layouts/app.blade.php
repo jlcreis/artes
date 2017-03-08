@@ -93,9 +93,10 @@
     </div>
 
     <!-- Scripts -->
-    <script src="/jquery/jquery-3.1.1.min.js"></script>
-    <script src="/js/app.js"></script>
-    <script src="/js/script.js"></script>
-    <script src="/jquery/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="/jquery/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript" src="/jquery/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
