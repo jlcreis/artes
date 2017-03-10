@@ -11,6 +11,17 @@ class PublicoController extends Controller {
     public function __construct(){
 
     }
+    //lista destaques de produtos
+    public function listaDestaques(){
+        $produtos = Produto::all();
+        $resultado = array();
+        foreach ($produtos as $p){
+             $destaque = DB::select('select * from imagems i where i.idProduto = ? limit 1',[$p->id]);
+             $resultado = array_merge($resultado, $destaque);
+        }
+        //return $resultado;
+        return view('publico.destaques')->with('destaques', $resultado);
+    }
     //lista geral de produtos
     public function listaProduto(){
 
